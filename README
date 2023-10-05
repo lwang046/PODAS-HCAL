@@ -1,0 +1,9 @@
+## Log into lxplus
+ssh -Y @lxplus.cern.ch -L localhost:XXXX:localhost:XXXX  
+## Set up CMSSW environment
+source /cvmfs/cms.cern.ch/cmsset_default.sh  
+scram p cmssw CMSSW_13_2_5  
+cd CMSSW_13_2_5/src  
+cmsenv  
+##Open jupyter notebook
+jupyter notebook --no-browser --port=XXXX  
