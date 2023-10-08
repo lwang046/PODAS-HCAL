@@ -1,8 +1,13 @@
 # Instruction to set up env
 ## Log into lxplus
 ```
-ssh -Y @lxplus.cern.ch -L localhost:XXXX:localhost:XXXX
+ssh -Y <username>@lxplus.cern.ch -L localhost:XXXX:localhost:XXXX
 ```
+or if using desy remote server, do
+```
+ssh <username>@@naf-cms.desy.de -L localhost:XXXX:localhost:XXXX
+```
+
 
 ## Set up CMSSW environment
 ```
