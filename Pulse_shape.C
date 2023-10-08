@@ -19,7 +19,7 @@
 
   TCanvas *c1 = new TCanvas("MC_Data","",900,600);
 
-void Pulse_shape(TString infile) {
+void Pulse_shape(TString infile, string outputname) {
 
   gDirectory->DeleteAll();
 
@@ -70,5 +70,5 @@ void Pulse_shape(TString infile) {
   }
  
   PulseShape->Draw("HIST");
-  c1->SaveAs("PulseShape.pdf");
+  c1->SaveAs((outputname+".png").c_str());
 }

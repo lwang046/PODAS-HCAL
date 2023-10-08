@@ -131,7 +131,7 @@ int calculateResponse(const char *inFileDir = "./data",                 // folde
 		      const double limitForMipInEcal = 1.0,            // in GeV
 		      const double minHcalEnergy = 10.0,               // in GeV (to remove mip-like events)
 		      const double minPt = 7.0,                        // in GeV
-		      const char *treeName = "hcalIsoTrkAnalyzer/CalibTree"
+		      const char *treeName = "CalibTree"
 		      )
 {
   

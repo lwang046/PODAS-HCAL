@@ -314,7 +314,7 @@ void pulsedisplay()
       TexLabel1->Draw("same");
       TexLabel2->Draw("same");
 
-      c->Print(Form("pulse_run%i_ls%i_evt%i_ieta%i_iphi%i_depth%i.pdf", run, ls, evt, ieta, iphi, depth));
+      c->Print(Form("pulse_run%i_ls%i_evt%i_ieta%i_iphi%i_depth%i.png", run, ls, evt, ieta, iphi, depth));
     }
 
 }
