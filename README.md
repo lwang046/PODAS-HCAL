@@ -21,6 +21,11 @@ cmsenv
 ```
 git clone https://:@gitlab.cern.ch:8443/cms-podas23/dpg/hcal-das.git
 ```
+or from github if you don't have gitlab permission
+```
+git clone https://github.com/lwang046/PODAS-HCAL.git
+```
+
 
 ## Open jupyter notebook
 ```
